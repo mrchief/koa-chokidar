@@ -10,8 +10,8 @@ koa middleware to watch and reload files on change. Makes nodemon unnecessary.
 [npm-url]: http://npmjs.org/package/koa-chokidar
 [travis-image]: https://img.shields.io/travis/mrchief/koa-chokidar.svg?style=flat-square
 [travis-url]: https://travis-ci.org/mrchief/koa-chokidar
-[gzip-image]: http://img.badgesize.io/https://unpkg.com/koa-chokidar/dist/koa-chokidar.js?compression=gzip&style=flat-square
-[gzip-url]: https://unpkg.com/koa-chokidar/dist/koa-chokidar.js
+[gzip-image]: http://img.badgesize.io/https://unpkg.com/koa-chokidar/src/index.js?compression=gzip&style=flat-square
+[gzip-url]: https://unpkg.com/koa-chokidar/src/index.js
 
 ## Why
 

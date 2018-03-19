@@ -1,6 +1,6 @@
 {
   "name": "koa-chokidar",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description":
     "koa middleware to watch and reload files on change. Makes nodemon unnecessary.",
   "main": "src/index.js",
