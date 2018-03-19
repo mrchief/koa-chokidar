@@ -2,6 +2,17 @@
 
 koa middleware to watch and reload files on change. Makes nodemon unnecessary.
 
+[![NPM version][npm-image]][npm-url] [![gzip][gzip-image]][gzip-url]
+
+[![build status][travis-image]][travis-url]
+
+[npm-image]: http://img.shields.io/npm/v/koa-chokidar.svg?style=flat-square
+[npm-url]: http://npmjs.org/package/koa-chokidar
+[travis-image]: https://img.shields.io/travis/mrchief/koa-chokidar.svg?style=flat-square
+[travis-url]: https://travis-ci.org/mrchief/koa-chokidar
+[gzip-image]: http://img.badgesize.io/https://unpkg.com/koa-chokidar/dist/koa-chokidar.js?compression=gzip&style=flat-square
+[gzip-url]: https://unpkg.com/koa-chokidar/dist/koa-chokidar.js
+
 ## Why
 
 Inspired by [Don't use nodemon, there are better ways!](https://codeburst.io/dont-use-nodemon-there-are-better-ways-fc016b50b45e) and [connect-chokidar](https://github.com/nemtsov/connect-chokidar), this module alleviates the pain of waiting for webpack (or your favorite bundler) to compile, anytime a hot-reloaded file changes on disk, for Koa apps.
