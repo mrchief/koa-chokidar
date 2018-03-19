@@ -1,0 +1,36 @@
+{
+  "name": "koa-chokidar",
+  "version": "1.0.0",
+  "description":
+    "koa middleware to watch and reload files on change. Makes nodemon unnecessary.",
+  "main": "index.js",
+  "repository": "https://github.com/mrchief/koa-chokidar.git",
+  "author": "Hrusikesh Panda <mrchief_2000@yahoo.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com//mrchief/koa-chokidar/issues"
+  },
+  "homepage": "https://github.com//mrchief/koa-chokidar#readme",
+  "scripts": {
+    "test": "eslint --fix src example"
+  },
+  "dependencies": {
+    "chokidar": "^2.0.2"
+  },
+  "devDependencies": {
+    "chokidar-cli": "^1.2.0",
+    "eslint": "^4.19.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-config-prettier-standard": "^1.0.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-plugin-import": "^2.9.0",
+    "eslint-plugin-node": "^6.0.1",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "prettier": "^1.11.1"
+  },
+  "engines": {
+    "node": ">=7"
+  }
+}

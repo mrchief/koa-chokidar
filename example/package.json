@@ -1,0 +1,21 @@
+{
+  "name": "koa-chokidar-example",
+  "version": "0.0.1",
+  "description": "Example app for koa-chokidar",
+  "main": "index.js",
+  "repository": "https://github.com/mrchief/koa-chokidar.git",
+  "author": "Hrusikesh Panda <mrchief_2000@yahoo.com>",
+  "scripts": {
+    "start": "cross-env NODE_DEBUG=koa-chokidar node app"
+  },
+  "dependencies": {
+    "cross-env": "^5.1.4",
+    "koa": "^2.3.0",
+    "koa-body": "^2.3.0",
+    "koa-router": "^7.2.1"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=7"
+  }
+}
